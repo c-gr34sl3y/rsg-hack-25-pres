@@ -1,11 +1,11 @@
 # RSG Hackathon 2025
-### S6: "Advent of Code"  
+### S6: "Advent of Code"
 
 ---
 
 ## Intro
 
-- Overview of AoC 
+- Overview of AoC
 - How things will run today
 - Getting started and setup
 
@@ -14,40 +14,39 @@
 ## What is Advent of Code?
 
 - Since 2015, an annual set of programming challenges following Advent
-  
+
 - Interested in a deeper drive from Eric Wastl? A very entertaining presentation here: [https://www.youtube.com/watch?v=uZ8DcbhojOw](https://www.youtube.com/watch?v=uZ8DcbhojOw)
  (particularly fun showing how he emergency scaled up his infrastructure at the beginning in 2015!)
 
 - For us? A good structure for "working together collaboratively, learning new or polishing existing skills"
 
-- We're working with the 2015 set of challenges. 
+- We're working with the 2015 set of challenges.
 
 ---
 
 ## Getting Started
 
 0. Find some people to work with. We want people working together in at least pairs.
-  
 1. We're going to work with puzzles set in AoC 2015. So [https://adventofcode.com/2015](https://adventofcode.com/2015)
 2. Login and create an account, authenticating with one of the 4 options - Github recommended
 3. (Optional) - if you want to join the private leaderboard, go to [https://adventofcode.com/2015/leaderboard](https://adventofcode.com/2015/leaderboard/private) and use the code: 3434143-9fd3e2cf
 4. ????
 5. Have fun!
-   
+
 ---
 
 ## Getting Inputs
 
-Everyone's inputs will be different for each problem. 
+Everyone's inputs will be different for each problem.
 
 You can either
 
-### A) Manually Download the Inputs
+A) Manually Download the Inputs
 1. Go to each day’s puzzle page on [Advent of Code 2015](https://adventofcode.com/2015).
 2. Scroll to the bottom and click on **"Get your puzzle input"**.
 3. Save the file manually as `dayX.txt` (where X is the day number).
 
-### B) Use a Helpful Tool (`advent-of-code-data`)
+B) Use a Helpful Tool (`advent-of-code-data`)
 You can automate the input retrieval process by [advent-of-code-data](https://github.com/wimglenn/advent-of-code-data).
 
 To install it, use `pip`:
@@ -56,7 +55,7 @@ To install it, use `pip`:
 pip install advent-of-code-data
 ```
 
-#### Prerequisites for using the tool:
+Prerequisites for using the tool:
 1. **A login for Advent of Code 2015**: Sign in on [Advent of Code](https://adventofcode.com/2015).
 2. **Your session ID cookie**: To retrieve your personalized inputs, you'll need your session cookie.
    - Login on AoC with your account (e.g., GitHub or Google).
@@ -73,4 +72,3 @@ for day in {1..25}; do
     aocd $day 2015 > "inputs/day${day}.txt"
 done
 ```
-
