@@ -9,7 +9,8 @@
 - How things will run today
 - Getting started and setup
 
-<img src="assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Icon">
+<img src="/assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Image">
+
 
 ---
 
@@ -24,7 +25,7 @@
 
 - We're working with the 2015 set of challenges.
 
-<img src="assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Icon">
+<img src="/assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Image">
 
 ---
 
@@ -37,7 +38,7 @@
 4. ????
 5. Have fun!
 
-<img src="assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Icon">
+<img src="/assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Image">
 
 ---
 
@@ -52,7 +53,7 @@ Manually Download the Inputs
 2. Scroll to the bottom and click on **"Get your puzzle input"**.
 3. Save the file manually as `dayX.txt` (where X is the day number).
 
-<img src="assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Icon">
+<img src="/assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Image">
 
 ---
 
@@ -84,4 +85,5 @@ for day in {1..25}; do
     aocd $day 2015 > "inputs/day${day}.txt"
 done
 ```
-<img src="assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Icon">
+
+<img src="/assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Image">
