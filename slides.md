@@ -37,34 +37,38 @@
 
 ## Getting Inputs
 
-Everyone's inputs will be different for each problem.
+<div style="text-align: left; padding: 20px;">
+Everyone's challenge inputs are different. To get them, either:
 
-You can either
+Manually Download the Inputs
 
-A) Manually Download the Inputs
 1. Go to each day’s puzzle page on [Advent of Code 2015](https://adventofcode.com/2015).
 2. Scroll to the bottom and click on **"Get your puzzle input"**.
 3. Save the file manually as `dayX.txt` (where X is the day number).
 
-B) Use a Helpful Tool (`advent-of-code-data`)
-You can automate the input retrieval process by [advent-of-code-data](https://github.com/wimglenn/advent-of-code-data).
+---
 
-To install it, use `pip`:
+## Getting Inputs (Continued)
+
+<div style="text-align: left; padding: 20px;">
+Automate the input retrieval process by [advent-of-code-data](https://github.com/wimglenn/advent-of-code-data).
+
+Install with pip:
 
 ```bash
 pip install advent-of-code-data
 ```
 
-Prerequisites for using the tool:
-1. **A login for Advent of Code 2015**: Sign in on [Advent of Code](https://adventofcode.com/2015).
-2. **Your session ID cookie**: To retrieve your personalized inputs, you'll need your session cookie.
-   - Login on AoC with your account (e.g., GitHub or Google).
-   - Open your browser's developer console (right-click → **Inspect** → **Network** tab).
-   - Visit a puzzle page (e.g., [day 1](https://adventofcode.com/2015/day/1/input)).
-   - Look for the `session=...` cookie in the **Request Headers**.
-   - Add this session ID to your environment by setting `AOC_SESSION` or by writing it to `~/.config/aocd/token`.
+Then:
+1. Login to [Advent of Code 2015](https://adventofcode.com/2015)
+2. **Get your session ID cookie**
 
-Once everything is set up, you can use the tool to download your inputs for all days:
+- Open your browser's developer console (right-click → **Inspect** → **Network** tab).
+- Visit a puzzle page (e.g., [day 1](https://adventofcode.com/2015/day/1/input)).
+- Look for the `session=...` cookie in the **Request Headers**.
+- Add this session ID to your environment by setting `AOC_SESSION` or by writing it to `~/.config/aocd/token`
+
+3. Then use the tool to download your inputs for all days:
 
 ```bash
 # Download inputs for all 25 days
