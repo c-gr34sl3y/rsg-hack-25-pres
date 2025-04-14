@@ -1,4 +1,4 @@
-<!-- .slide: data-background="assets/icons/bluebear640px-cropped-80x80.png" -->
+<!-- .slide: data-background=bluebear640px-cropped-80x80.png" -->
 
 # RSG Hackathon 2025
 ### S6: "Advent of Code"
