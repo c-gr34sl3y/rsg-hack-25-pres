@@ -1,6 +1,8 @@
 # RSG Hackathon 2025
 ### S6: "Advent of Code"
 
+<img src="bluebear640px-cropped-80x80.png" class="custom-icon" alt="legalBEAR">
+
 ---
 
 ## Intro
@@ -9,7 +11,7 @@
 - How things will run today
 - Getting started and setup
 
-<img src="/assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Image">
+<img src="bluebear640px-cropped-80x80.png" class="custom-icon" alt="legalBEAR">
 
 
 ---
@@ -25,20 +27,23 @@
 
 - We're working with the 2015 set of challenges.
 
-<img src="/assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Image">
+<img src="bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Image">
 
 ---
 
 ## Getting Started
 
 0. Find some people to work with. We want people working together in at least pairs.
-1. We're going to work with puzzles set in AoC 2015. So [https://adventofcode.com/2015](https://adventofcode.com/2015)
-2. Login and create an account, authenticating with one of the 4 options - Github recommended
-3. (Optional) - if you want to join the private leaderboard, go to [https://adventofcode.com/2015/leaderboard](https://adventofcode.com/2015/leaderboard/private) and use the code: 3434143-9fd3e2cf
-4. ????
-5. Have fun!
 
-<img src="/assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Image">
+1. We're going to work with puzzles set in AoC 2015. So [https://adventofcode.com/2015](https://adventofcode.com/2015)
+
+2. Login and create an account, authenticating with one of the 4 options - Github recommended
+
+3. (Optional) - if you want to join the private leaderboard, go to [https://adventofcode.com/2015/leaderboard](https://adventofcode.com/2015/leaderboard/private) and use the code: 3434143-9fd3e2cf
+
+4. Have fun!
+
+<img src="bluebear640px-cropped-80x80.png" class="custom-icon" alt="legalBEAR">
 
 ---
 
@@ -47,20 +52,21 @@
 <div style="text-align: left; padding: 20px;">
 Everyone's challenge inputs are different. To get them, either:
 
-Manually Download the Inputs
+**Manually Download the Inputs**
 
 1. Go to each day’s puzzle page on [Advent of Code 2015](https://adventofcode.com/2015).
 2. Scroll to the bottom and click on **"Get your puzzle input"**.
 3. Save the file manually as `dayX.txt` (where X is the day number).
 
-<img src="/assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Image">
+<img src="bluebear640px-cropped-80x80.png" class="custom-icon" alt="legalBEAR">
 
 ---
 
-## Getting Inputs (Continued)
+## Getting Inputs (continued)
 
 <div style="text-align: left; padding: 20px;">
-Automate the input retrieval process by [advent-of-code-data](https://github.com/wimglenn/advent-of-code-data).
+
+**Automate** the input retrieval process by [advent-of-code-data](https://github.com/wimglenn/advent-of-code-data).
 
 Install with pip:
 
@@ -72,10 +78,22 @@ Then:
 1. Login to [Advent of Code 2015](https://adventofcode.com/2015)
 2. **Get your session ID cookie**
 
-- Open your browser's developer console (right-click → **Inspect** → **Network** tab).
-- Visit a puzzle page (e.g., [day 1](https://adventofcode.com/2015/day/1/input)).
-- Look for the `session=...` cookie in the **Request Headers**.
-- Add this session ID to your environment by setting `AOC_SESSION` or by writing it to `~/.config/aocd/token`
+```
+Open your browser's developer console (right-click → **Inspect** → **Network** tab).
+
+Visit a puzzle page (e.g., [day 1](https://adventofcode.com/2015/day/1/input)).
+
+Look for the `session=...` cookie in the **Request Headers**.
+
+Add this session ID to your environment by setting `AOC_SESSION` or by writing it to `~/.config/aocd/token`
+```
+
+<img src="bluebear640px-cropped-80x80.png" class="custom-icon" alt="legalBEAR">
+
+---
+
+## Getting Inputs (continued even more)
+
 
 3. Then use the tool to download your inputs for all days:
 
@@ -86,4 +104,4 @@ for day in {1..25}; do
 done
 ```
 
-<img src="/assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Image">
+<img src="bluebear640px-cropped-80x80.png" class="custom-icon" alt="legalBEAR">
