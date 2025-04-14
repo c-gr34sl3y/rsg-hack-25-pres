@@ -1,5 +1,5 @@
 # RSG Hackathon 2025
-# S6: "Advent of Code"  
+### S6: "Advent of Code"  
 
 ---
 
