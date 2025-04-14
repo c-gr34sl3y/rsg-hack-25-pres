@@ -1,7 +1,7 @@
+<!-- .slide: data-background="assets/icons/bluebear640px-cropped-80x80.png" -->
+
 # RSG Hackathon 2025
 ### S6: "Advent of Code"
-
-<img src="bluebear640px-cropped-80x80.png" class="custom-icon" alt="legalBEAR">
 
 ---
 
@@ -10,9 +10,6 @@
 - Overview of AoC
 - How things will run today
 - Getting started and setup
-
-<img src="bluebear640px-cropped-80x80.png" class="custom-icon" alt="legalBEAR">
-
 
 ---
 
@@ -26,8 +23,6 @@
 - For us? A good structure for "working together collaboratively, learning new or polishing existing skills"
 
 - We're working with the 2015 set of challenges.
-
-<img src="bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Image">
 
 ---
 
@@ -43,8 +38,6 @@
 
 4. Have fun!
 
-<img src="bluebear640px-cropped-80x80.png" class="custom-icon" alt="legalBEAR">
-
 ---
 
 ## Getting Inputs
@@ -57,8 +50,6 @@ Everyone's challenge inputs are different. To get them, either:
 1. Go to each day’s puzzle page on [Advent of Code 2015](https://adventofcode.com/2015).
 2. Scroll to the bottom and click on **"Get your puzzle input"**.
 3. Save the file manually as `dayX.txt` (where X is the day number).
-
-<img src="bluebear640px-cropped-80x80.png" class="custom-icon" alt="legalBEAR">
 
 ---
 
@@ -88,8 +79,6 @@ Look for the `session=...` cookie in the **Request Headers**.
 Add this session ID to your environment by setting `AOC_SESSION` or by writing it to `~/.config/aocd/token`
 ```
 
-<img src="bluebear640px-cropped-80x80.png" class="custom-icon" alt="legalBEAR">
-
 ---
 
 ## Getting Inputs (continued even more)
@@ -103,5 +92,3 @@ for day in {1..25}; do
     aocd $day 2015 > "inputs/day${day}.txt"
 done
 ```
-
-<img src="bluebear640px-cropped-80x80.png" class="custom-icon" alt="legalBEAR">

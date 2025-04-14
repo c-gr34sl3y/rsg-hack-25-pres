@@ -8,7 +8,7 @@ body, html {
    position: fixed;
    bottom: 0px;
    right: 0px;
-   width: 60px;  /* Adjust icon size */
-   height: 60px; /* Adjust icon size */
+   width: 80px;  /* Adjust icon size */
+   height: 80px; /* Adjust icon size */
    z-index: 1000; /* Ensure it's on top of other content */
  }
