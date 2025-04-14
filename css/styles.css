@@ -1,3 +1,9 @@
+body, html {
+  margin: 0;           /* Reset any default margin */
+  padding: 0;          /* Reset any default padding */
+  height: 100%;        /* Ensure full height for positioning */
+}
+
 .custom-icon {
    position: fixed;
    bottom: 0px;
