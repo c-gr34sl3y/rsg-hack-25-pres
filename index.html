@@ -1,45 +1,72 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+    <title>RSG Hackathon 2025 - AoC Session</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/league.css">
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/league.css">
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
 
+    <style>
+      section {
+        font-size: 0.85em; /* scale down fonts a bit */
+      }
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-		 <div class="slides">
-		    <section data-markdown="slides.md"
-                             data-separator="^\n---\n$"
-                             data-separator-vertical="^\n--\n$"
-                             data-separator-notes="^Note:"
-                             data-charset="utf-8">
-                    </section>
- 		</div>
-		</div>
+      .reveal {
+        font-family: "Segoe UI", sans-serif;
+      }
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+      .reveal pre code {
+        font-size: 0.8em;
+        line-height: 1.4;
+      }
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+      h1 {
+        font-size: 2.2em;
+      }
+
+      h2 {
+        font-size: 1.7em;
+      }
+
+      h3 {
+        font-size: 1.4em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="slides.md"
+                 data-separator="^\n---\n$"
+                 data-separator-vertical="^\n--\n$"
+                 data-separator-notes="^Note:"
+                 data-charset="utf-8">
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      Reveal.initialize({
+        hash: true,
+        progress: true,
+        slideNumber: true,
+        width: 1280,
+        height: 720,
+        margin: 0.1,
+        minScale: 0.2,
+        maxScale: 1.5,
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+      });
+    </script>
+  </body>
 </html>
