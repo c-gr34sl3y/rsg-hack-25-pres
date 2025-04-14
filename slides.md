@@ -9,6 +9,8 @@
 - How things will run today
 - Getting started and setup
 
+<img src="assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Icon">
+
 ---
 
 ## What is Advent of Code?
@@ -22,6 +24,8 @@
 
 - We're working with the 2015 set of challenges.
 
+<img src="assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Icon">
+
 ---
 
 ## Getting Started
@@ -32,6 +36,8 @@
 3. (Optional) - if you want to join the private leaderboard, go to [https://adventofcode.com/2015/leaderboard](https://adventofcode.com/2015/leaderboard/private) and use the code: 3434143-9fd3e2cf
 4. ????
 5. Have fun!
+
+<img src="assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Icon">
 
 ---
 
@@ -45,6 +51,8 @@ Manually Download the Inputs
 1. Go to each day’s puzzle page on [Advent of Code 2015](https://adventofcode.com/2015).
 2. Scroll to the bottom and click on **"Get your puzzle input"**.
 3. Save the file manually as `dayX.txt` (where X is the day number).
+
+<img src="assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Icon">
 
 ---
 
@@ -76,3 +84,4 @@ for day in {1..25}; do
     aocd $day 2015 > "inputs/day${day}.txt"
 done
 ```
+<img src="assets/icons/bluebear640px-cropped-80x80.png" class="custom-icon" alt="Custom Icon">
