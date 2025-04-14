@@ -5,27 +5,22 @@
 
 ## Intro
 
-- V. brief overview of AoC and why we like it
-- Today and how things will run
-- Getting Started Guide
+- Overview of AoC 
+- How things will run today
+- Getting started and setup
 
 ---
 
 ## What is Advent of Code?
 
-- A "mostly perl" annual set of programming challenges following Advent
+- Since 2015, an annual set of programming challenges following Advent
+  
 - Interested in a deeper drive from Eric Wastl? A very entertaining presentation here: [https://www.youtube.com/watch?v=uZ8DcbhojOw](https://www.youtube.com/watch?v=uZ8DcbhojOw)
  (particularly fun showing how he emergency scaled up his infrastructure at the beginning in 2015!)
+
 - For us? A good structure for "working together collaboratively, learning new or polishing existing skills"
-- 
 
----
-
-## Our year - 2015
-
-- First year of AoC
-- Puzzles range from easy to challenging
-- Themes include Santa's journey, elves, and more
+- We're working with the 2015 set of challenges. 
 
 ---
 
