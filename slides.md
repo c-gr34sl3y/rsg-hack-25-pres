@@ -67,13 +67,13 @@ Then:
 2. **Get your session ID cookie**
 
 ```
-Open your browser's developer console (right-click → **Inspect** → **Network** tab).
+1. Open your browser's developer console (right-click → **Inspect** → **Network** tab).
 
-Visit a puzzle page (e.g., [day 1](https://adventofcode.com/2015/day/1/input)).
+2. Visit a puzzle page (e.g., [day 1](https://adventofcode.com/2015/day/1/input)).
 
-Look for the `session=...` cookie in the **Request Headers**.
+3. Look for the `session=...` cookie in the **Request Headers**.
 
-Add this session ID to your environment by setting `AOC_SESSION` or by writing it to `~/.config/aocd/token`
+4. Add this session ID to your environment by setting `AOC_SESSION` or by writing it to `~/.config/aocd/token`
 ```
 
 ---
