@@ -16,7 +16,6 @@
 - Since 2015, an annual set of programming challenges following Advent
 
 - Interested in a deeper drive from Eric Wastl? A very entertaining presentation here: [https://www.youtube.com/watch?v=uZ8DcbhojOw](https://www.youtube.com/watch?v=uZ8DcbhojOw)
- (particularly fun showing how he emergency scaled up his infrastructure at the beginning in 2015!)
 
 - For us? A good structure for "working together collaboratively, learning new or polishing existing skills"
 
@@ -26,11 +25,11 @@
 
 ## Getting Started
 
-0. Find some people to work with. We want people working together in at least pairs.
+0. Find some people to work with. We want people working together in, at least, pairs.
 
 1. We're going to work with puzzles set in AoC 2015. So [https://adventofcode.com/2015](https://adventofcode.com/2015)
 
-2. Login and create an account, authenticating with one of the 4 options - Github recommended
+2. Login and create an account, authenticating with one of the 4 options: Github recommended
 
 3. (Optional) - if you want to join the private leaderboard, go to [https://adventofcode.com/2015/leaderboard](https://adventofcode.com/2015/leaderboard/private) and use the code: 3434143-9fd3e2cf
 
